@@ -30,9 +30,11 @@ public class JerseyVerticle extends AbstractVerticle {
 
         CompletableFuture<String> future = new CompletableFuture<>();
         DeploymentOptions options = new DeploymentOptions().setConfig(config);
+        options.setWorker(true);
 
         vertx.deployVerticle("java-hk2:" + JerseyVerticle.class.getCanonicalName(), options, result -> {
             if (result.succeeded()) {
+                System.out.println("jersey Deployed");
                 future.complete(result.result());
             } else {
                 future.completeExceptionally(result.cause());
