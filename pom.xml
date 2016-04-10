@@ -6,7 +6,7 @@
 
     <groupId>com.nems.common</groupId>
     <artifactId>jersey</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
 
     <build>
         <plugins>
@@ -29,11 +29,11 @@
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                     <!-- MainClass in mainfest make a executable jar -->
-                    <!--archive>
+                    <archive>
                         <manifest>
-                            <mainClass>com.mkyong.core.utils.App</mainClass>
+                            <mainClass>com.nems.common.JerseyVerticle</mainClass>
                         </manifest>
-                    </archive-->
+                    </archive>
 
                 </configuration>
                 <executions>
@@ -138,7 +138,7 @@
         <dependency>
             <groupId>com.englishtown.vertx</groupId>
             <artifactId>vertx-jersey</artifactId>
-            <version>4.3.2</version>
+            <version>4.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.englishtown.vertx</groupId>
@@ -148,12 +148,27 @@
         <dependency>
             <groupId>com.englishtown.vertx</groupId>
             <artifactId>vertx-jersey-swagger</artifactId>
-            <version>4.3.2</version>
+            <version>4.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.cyngn.vertx</groupId>
             <artifactId>vertx-kafka</artifactId>
             <version>0.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-dropwizard-metrics</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-dropwizard-metrics</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>nems.revctx</groupId>
+            <artifactId>submissionservices</artifactId>
+            <version>1.0.3</version>
         </dependency>
 
     </dependencies>
