@@ -90,5 +90,6 @@
     <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-core:3.1.2" level="project" />
     <orderEntry type="library" name="Maven: nems.revctx:submissionservices:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: nems.revctx:domainmodel:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.media:jersey-media-moxy:2.13" level="project" />
   </component>
 </module>
