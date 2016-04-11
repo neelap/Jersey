@@ -77,7 +77,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.6.1" level="project" />
-    <orderEntry type="library" name="Maven: com.englishtown.vertx:vertx-jersey-swagger:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: com.cyngn.vertx:vertx-kafka:0.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.12" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
@@ -89,6 +88,7 @@
     <orderEntry type="library" name="Maven: io.vertx:vertx-dropwizard-metrics:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-core:3.1.2" level="project" />
     <orderEntry type="library" name="Maven: nems.revctx:submissionservices:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.englishtown.vertx:vertx-jersey-swagger:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: nems.revctx:domainmodel:1.0.3" level="project" />
   </component>
 </module>

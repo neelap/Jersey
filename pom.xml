@@ -146,11 +146,6 @@
             <version>4.3.2</version>
         </dependency>
         <dependency>
-            <groupId>com.englishtown.vertx</groupId>
-            <artifactId>vertx-jersey-swagger</artifactId>
-            <version>4.4.0</version>
-        </dependency>
-        <dependency>
             <groupId>com.cyngn.vertx</groupId>
             <artifactId>vertx-kafka</artifactId>
             <version>0.4.1</version>
@@ -170,6 +165,8 @@
             <artifactId>submissionservices</artifactId>
             <version>1.0.3</version>
         </dependency>
+
+
 
     </dependencies>
 
