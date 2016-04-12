@@ -25,9 +25,7 @@ public class JerseyVerticle {
 
     public static void main(String[] args) throws Exception {
 
-        Vertx vertx = Vertx.vertx(new VertxOptions().setMetricsOptions(
-                new DropwizardMetricsOptions().setEnabled(true).setJmxEnabled(true).setJmxDomain("nems-metrics")
-        ));
+        Vertx vertx = Vertx.vertx();
 
         HttpServer httpServer = vertx.createHttpServer();
         Router router = Router.router(vertx);
